@@ -17,14 +17,14 @@
 
 # Error checking for text strings or other invalid inputs is not required, only valid positive non-zero integers will be passed into the function.
 
-def narcissistic( value ):
-    lenofnumber = str (value)
-    lennum = len (lenofnumber)
-    for i in range (lennum):
-        return (sum (value[i] * lenofnumber))
+# def narcissistic( value ):
+#     lenofnumber = str (value)
+#     lennum = len (lenofnumber)
+#     for i in range (lennum):
+#         return (sum (value[i] * lenofnumber))
     
     
-print (narcissistic (1254))
+# print (narcissistic (1254))
 
 
 def narcissistic (value):
