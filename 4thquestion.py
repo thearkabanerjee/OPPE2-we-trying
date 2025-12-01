@@ -15,3 +15,10 @@ def primeChecker (num : int):
     # # return numberroot
 
 print (primeChecker(int (17)))
+
+
+a = 12
+
+
+
+hellp = 'hennp'
