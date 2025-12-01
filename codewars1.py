@@ -32,6 +32,19 @@ def narcissistic (value):
     lenofnumber = len (strofnumber)
 
     for i in range (lenofnumber):
+        # return strofnumber[i]
+        
+        new_num = int(strofnumber[i]) ** lenofnumber
+        
+        sumofthing = 0 
+
+        # sumofthing += new_num
+
+        return new_num
+        
+
+
+print (narcissistic (1234))
         
 
 # a = 124
