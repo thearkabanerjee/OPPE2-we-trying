@@ -16,3 +16,31 @@
 # This may be True and False in your language, e.g. PHP.
 
 # Error checking for text strings or other invalid inputs is not required, only valid positive non-zero integers will be passed into the function.
+
+def narcissistic( value ):
+    lenofnumber = str (value)
+    lennum = len (lenofnumber)
+    for i in range (lennum):
+        return (sum (value[i] * lenofnumber))
+    
+    
+print (narcissistic (1254))
+
+
+def narcissistic (value):
+    strofnumber = str (value)
+    lenofnumber = len (strofnumber)
+
+    for i in range (lenofnumber):
+        
+
+# a = 124
+
+# lenofnumber = str(a)
+
+# lennum = len (lenofnumber)
+# for i in range (lennum):
+#     print (lenofnumber[i])
+
+
+
